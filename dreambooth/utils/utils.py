@@ -245,5 +245,5 @@ def verify_locon_installed(args):
         raise Exception(
             r"a1111-sd-webui-locon extension is required to save "
             r"extra net for extended lora. Please install "
-            r"https://github.com/KohakuBlueleaf/a1111-sd-webui-locon"
+            r"https://kgithub.com/KohakuBlueleaf/a1111-sd-webui-locon"
         )

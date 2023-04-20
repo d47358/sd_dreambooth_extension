@@ -349,10 +349,10 @@ def on_ui_tabs():
                     with gr.Accordion(open=False, label="Resources"):
                         with gr.Column():
                             gr.HTML(
-                                value="<a class=\"hyperlink\" href=\"https://github.com/d8ahazard/sd_dreambooth_extension/wiki/ELI5-Training\">Beginners guide</a>",
+                                value="<a class=\"hyperlink\" href=\"https://kgithub.com/d8ahazard/sd_dreambooth_extension/wiki/ELI5-Training\">Beginners guide</a>",
                             )
                             gr.HTML(
-                                value="<a class=\"hyperlink\" href=\"https://github.com/d8ahazard/sd_dreambooth_extension/releases/latest\">Release notes</a>",
+                                value="<a class=\"hyperlink\" href=\"https://kgithub.com/d8ahazard/sd_dreambooth_extension/releases/latest\">Release notes</a>",
                             )
             with gr.Column(variant="panel", elem_id="SettingsPanel"):
                 gr.HTML(value="<span class='hh'>Input</span>")
@@ -1178,7 +1178,7 @@ def on_ui_tabs():
                     close_modal = gr.Button(value="X", elem_id="close_modal")
                 with gr.Row():
                     modal_release_notes = gr.HTML(
-                        "<h3><a href='https://github.com/d8ahazard/sd_dreambooth_extension/releases/latest'>Release notes</a></h3>",
+                        "<h3><a href='https://kgithub.com/d8ahazard/sd_dreambooth_extension/releases/latest'>Release notes</a></h3>",
                         elem_id="modal_notes",
                     )
                 with gr.Column():

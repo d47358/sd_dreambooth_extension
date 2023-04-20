@@ -217,7 +217,7 @@ textenc_conversion_lst = [
 protected = {re.escape(x[1]): x[0] for x in textenc_conversion_lst}
 textenc_pattern = re.compile("|".join(protected.keys()))
 
-# Ordering is from https://github.com/pytorch/pytorch/blob/master/test/cpp/api/modules.cpp
+# Ordering is from https://kgithub.com/pytorch/pytorch/blob/master/test/cpp/api/modules.cpp
 code2idx = {'q': 0, 'k': 1, 'v': 2}
 
 

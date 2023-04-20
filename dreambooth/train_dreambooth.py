@@ -1,5 +1,5 @@
-# Borrowed heavily from https://github.com/bmaltais/kohya_ss/blob/master/train_db.py and
-# https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth
+# Borrowed heavily from https://kgithub.com/bmaltais/kohya_ss/blob/master/train_db.py and
+# https://kgithub.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth
 # With some custom bits sprinkled in and some stuff from OG diffusers as well.
 
 import itertools

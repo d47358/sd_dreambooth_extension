@@ -6,7 +6,7 @@ import torch.utils.checkpoint
 from transformers import CLIPTextModel
 
 
-# Implementation from https://github.com/bmaltais/kohya_ss
+# Implementation from https://kgithub.com/bmaltais/kohya_ss
 def encode_hidden_state(text_encoder: CLIPTextModel, input_ids, pad_tokens, b_size, max_token_length,
                         tokenizer_max_length, clip_skip):
     if pad_tokens:

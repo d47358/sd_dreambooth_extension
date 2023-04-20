@@ -99,7 +99,7 @@ def get_changes() -> Union[Dict[str, str], None]:
         author = parts[1]
         date = parts[2]
         title = parts[3].rstrip('"')
-        url = f"https://github.com/d8ahazard/sd_dreambooth_extension/commit/{rev}"
+        url = f"https://kgithub.com/d8ahazard/sd_dreambooth_extension/commit/{rev}"
         changes[rev] = [title, author, date, url]
 
     return changes

@@ -1,5 +1,5 @@
 #
-# SOURCE: https://github.com/qwopqwop200/D-Adaptation-Adan/blob/main/opt/dadapt_adan.py
+# SOURCE: https://kgithub.com/qwopqwop200/D-Adaptation-Adan/blob/main/opt/dadapt_adan.py
 #
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # All rights reserved.

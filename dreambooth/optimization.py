@@ -326,7 +326,7 @@ def get_polynomial_decay_schedule_with_warmup(
 
     Note: *power* defaults to 1.0 as in the fairseq implementation, which in turn is based on the original BERT
     implementation at
-    https://github.com/google-research/bert/blob/f39e881b169b9d53bea03d2d341b31707a6c052b/optimization.py#L37
+    https://kgithub.com/google-research/bert/blob/f39e881b169b9d53bea03d2d341b31707a6c052b/optimization.py#L37
 
     Return:
         `torch.optim.lr_scheduler.LambdaLR` with the appropriate schedule.

@@ -15,14 +15,14 @@ Please check each of these before opening an issue. If you've checked them, **de
 - Updated the Stable-Diffusion-WebUI to the latest version?
 - Updated Dreambooth to the latest revision?
 - Completely restarted the stable-diffusion-webUI, not just reloaded the UI?
-- Read the [Readme](https://github.com/d8ahazard/sd_dreambooth_extension#readme)?
+- Read the [Readme](https://kgithub.com/d8ahazard/sd_dreambooth_extension#readme)?
 
 ### 1. Please find the following lines in the console and paste them below.
 
 ```
 #######################################################################################################
 Initializing Dreambooth
-If submitting an issue on github, please provide the below text for debugging purposes:
+If submitting an issue on kgithub, please provide the below text for debugging purposes:
 
 Python revision: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
 Dreambooth revision: bd3fecc3d27d777a4e8f3206a0b16e852877dbad

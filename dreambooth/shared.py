@@ -83,7 +83,7 @@ def get_launch_errors():
     if launch_error is not None:
         launch_errors = "The Dreambooth extension has been disabled because the following error(s) were detected on launch.<br>" \
                         " Please completely restart the Auto1111 web-UI.<br>" \
-                        "If this error persists, please consult the <a href='https://github.com/d8ahazard/sd_dreambooth_extension/wiki'> wiki</a> for more information.<br>"
+                        "If this error persists, please consult the <a href='https://kgithub.com/d8ahazard/sd_dreambooth_extension/wiki'> wiki</a> for more information.<br>"
         launch_strings = "<br>".join(launch_error)
         launch_errors += f"<b>{launch_strings}</b>"
     return launch_errors
@@ -269,7 +269,7 @@ def tensor_to_fix(self, *args, **kwargs):
     return orig_tensor_to(self, *args, **kwargs)
 
 
-# MPS workaround for https://github.com/pytorch/pytorch/issues/80800
+# MPS workaround for https://kgithub.com/pytorch/pytorch/issues/80800
 
 def layer_norm_fix(*args, **kwargs):
     if len(args) > 0 and isinstance(args[0], torch.Tensor) and args[0].device.type == 'mps':
@@ -343,7 +343,7 @@ def load_vars(root_path = None):
 
     orig_tensor_to = torch.Tensor.to
     orig_layer_norm = torch.nn.functional.layer_norm
-    # MPS workaround for https://github.com/pytorch/pytorch/issues/90532
+    # MPS workaround for https://kgithub.com/pytorch/pytorch/issues/90532
     orig_tensor_numpy = torch.Tensor.numpy
     extension_path = os.path.join(script_path, "extensions", "sd_dreambooth_extension")
 

@@ -33,7 +33,7 @@ def actual_install():
     except:
         revision = ""
 
-    print("If submitting an issue on github, please provide the full startup log for debugging purposes.")
+    print("If submitting an issue on kgithub, please provide the full startup log for debugging purposes.")
     print("")
     print("Initializing Dreambooth")
     print(f"Dreambooth revision: {revision}")
@@ -256,7 +256,7 @@ def print_xformers_torch1_instructions(xformers_version):
     print("# xformers >= 0.0.17.dev is required to be available on the Dreambooth tab.")
     print("# Torch 1 wheels of xformers >= 0.0.17.dev are no longer available on PyPI,")
     print("# but you can manually download them by going to:")
-    print("https://github.com/facebookresearch/xformers/actions")
+    print("https://kgithub.com/facebookresearch/xformers/actions")
     print("# Click on the most recent action tagged with a release (middle column).")
     print("# Select a download based on your environment.")
     print("# Unzip your download")

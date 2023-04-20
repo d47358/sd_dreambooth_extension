@@ -1,11 +1,11 @@
 # Dreambooth Extension for Stable-Diffusion-WebUI
 
 This is a WIP port
-of [Shivam Shriao's Diffusers Repo](https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth), which is
-a modified version of the default [Huggingface Diffusers Repo](https://github.com/huggingface/diffusers) optimized for
+of [Shivam Shriao's Diffusers Repo](https://kgithub.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth), which is
+a modified version of the default [Huggingface Diffusers Repo](https://kgithub.com/huggingface/diffusers) optimized for
 better performance on lower-VRAM GPUs.
 
-In addition, there are parts borrowed from [Koyha SS by BMaltais](https://github.com/bmaltais/kohya_ss).
+In addition, there are parts borrowed from [Koyha SS by BMaltais](https://kgithub.com/bmaltais/kohya_ss).
 
 It also adds several other features, including training multiple concepts simultaneously, and (Coming soon) Inpainting
 training.
@@ -15,7 +15,7 @@ training.
 To install, simply go to the "Extensions" tab in the SD Web UI, select the "Available" sub-tab, pick "Load from:" to
 load the list of extensions, and finally, click "install" next to the Dreambooth entry.
 
-![image](https://user-images.githubusercontent.com/1633844/200368737-7fe322de-00d6-4b28-a321-5e09f072d397.png)
+![image](https://user-images.kgithubusercontent.com/1633844/200368737-7fe322de-00d6-4b28-a321-5e09f072d397.png)
 
 Once installed, you **must** restart the Stable-Diffusion WebUI completely. Reloading the UI will not install the
 necessary requirements.
@@ -33,8 +33,8 @@ set/export REQS_FILE=.\extensions\sd_dreambooth_extension\requirements.txt
 
 Refer to the appropriate script below for extra flags to install requirements:
 
-https://github.com/d8ahazard/sd_dreambooth_extension/blob/main/webui-user-dreambooth.bat
-https://github.com/d8ahazard/sd_dreambooth_extension/blob/main/webui-user-dreambooth.sh
+https://kgithub.com/d8ahazard/sd_dreambooth_extension/blob/main/webui-user-dreambooth.bat
+https://kgithub.com/d8ahazard/sd_dreambooth_extension/blob/main/webui-user-dreambooth.sh
 
 And last, if you wish to completely skip the "native" install routine of Dreambooth, you can set the following
 environment flag:
@@ -225,7 +225,7 @@ If you wish to use more than three concepts at once, you can ignore this section
 the "Use Concepts List" option from the Miscellaneous section under the Parameters tab.
 
 You can refer to
-the [Example Concepts List](https://github.com/d8ahazard/sd_dreambooth_extension/blob/main/dreambooth/concepts_list.json)
+the [Example Concepts List](https://kgithub.com/d8ahazard/sd_dreambooth_extension/blob/main/dreambooth/concepts_list.json)
 for a sample of the JSON format. You can theoretically use any number of concepts this way.
 
 ### Concept Parameters
@@ -316,7 +316,7 @@ If using Imagic, the first image in the first concept's Instance Data Dir will b
 
 See here for more details:
 
-https://github.com/ShivamShrirao/diffusers/tree/main/examples/imagic
+https://kgithub.com/ShivamShrirao/diffusers/tree/main/examples/imagic
 
 ### Continuing Training
 
@@ -326,13 +326,13 @@ the UI.
 If you wish to continue training a model, you can simply select the model name from the dropdown and then click the blue
 button next to the model name dropdown to load previous parameters.
 
-![image](https://user-images.githubusercontent.com/1633844/200369076-8debef69-4b95-4341-83ac-cbbb02ee02f6.png)
+![image](https://user-images.kgithubusercontent.com/1633844/200369076-8debef69-4b95-4341-83ac-cbbb02ee02f6.png)
 
 ## Memory and Optimization
 
 As this is based on ShivamShiaro's repo, it should be able to run under the same GPU constraints, but is not guaranteed.
 
-Please check out the [discussions](https://github.com/d8ahazard/sd_dreambooth_extension/discussions) page to find some
+Please check out the [discussions](https://kgithub.com/d8ahazard/sd_dreambooth_extension/discussions) page to find some
 possible tips and tricks to help you get this running on your setup - or share what you've done to get it working.
 
 ## Issues
@@ -340,9 +340,9 @@ possible tips and tricks to help you get this running on your setup - or share w
 Please be sure to use an issue template when asking for help. Some of the questions may be tedious, but I promise,
 they'll help me help you faster.
 
-[Bug Report](https://github.com/d8ahazard/sd_dreambooth_extension/issues/new?assignees=&labels=&template=bug_report.md&title=)
+[Bug Report](https://kgithub.com/d8ahazard/sd_dreambooth_extension/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
-[Feature Request](https://github.com/d8ahazard/sd_dreambooth_extension/issues/new?assignees=&labels=&template=feature_request.md&title=)
+[Feature Request](https://kgithub.com/d8ahazard/sd_dreambooth_extension/issues/new?assignees=&labels=&template=feature_request.md&title=)
 
 [Discord](https://discord.gg/q8dtpfRD5w)
 
@@ -350,11 +350,11 @@ they'll help me help you faster.
 
 [Huggingface.co](https://huggingface.co) - All the things
 
-[CloneOfSimo](https://github.com/cloneofsimo/lora) - LORA
+[CloneOfSimo](https://kgithub.com/cloneofsimo/lora) - LORA
 
-[ShivamShrirao](https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth) - Multiple concepts,
+[ShivamShrirao](https://kgithub.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth) - Multiple concepts,
 optimizations.
 
-[Bmalthais](https://github.com/bmaltais/kohya_ss) - Optimizations, Features
+[Bmalthais](https://kgithub.com/bmaltais/kohya_ss) - Optimizations, Features
 
-[Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Base app
+[Automatic1111](https://kgithub.com/AUTOMATIC1111/stable-diffusion-webui) - Base app

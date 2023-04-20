@@ -32,14 +32,14 @@ found in their respective source code repositories.
 By using the Software, you agree to comply with the licenses of these support 
 libraries and any associated restrictions.
 
-https://github.com/AUTOMATIC1111/stable-diffusion-webui
+https://kgithub.com/AUTOMATIC1111/stable-diffusion-webui
 
-https://github.com/bmaltais/kohya_ss
+https://kgithub.com/bmaltais/kohya_ss
 
-https://github.com/huggingface/diffusers
+https://kgithub.com/huggingface/diffusers
 
-https://github.com/camenduru/stable-diffusion-webui-colab
+https://kgithub.com/camenduru/stable-diffusion-webui-colab
 
-https://github.com/ShivamShrirao/diffusers
+https://kgithub.com/ShivamShrirao/diffusers
 
-https://github.com/NovelAI/novelai-aspect-ratio-bucketing
+https://kgithub.com/NovelAI/novelai-aspect-ratio-bucketing

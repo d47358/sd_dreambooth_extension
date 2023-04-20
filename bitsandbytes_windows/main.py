@@ -74,7 +74,7 @@ def get_compute_capabilities(cuda):
        (https://docs.nvidia.com/cuda/cuda-driver-api/group__CUDA__DEVICE__DEPRECATED.html)
     3. Check for CUDA errors
        https://stackoverflow.com/questions/14038589/what-is-the-canonical-way-to-check-for-errors-using-the-cuda-runtime-api
-    # bits taken from https://gist.github.com/f0k/63a664160d016a491b2cbea15913d549
+    # bits taken from https://gist.kgithub.com/f0k/63a664160d016a491b2cbea15913d549
     """
 
     nGpus = ctypes.c_int()

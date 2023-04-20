@@ -120,7 +120,7 @@ def __send_discord_training_update(
     discord = discord_webhook.DiscordWebhook(url, username="Dreambooth")
     out = discord_webhook.DiscordEmbed(color="C70039")
 
-    out.set_author(name=model_name, icon_url="https://avatars.githubusercontent.com/u/1633844")
+    out.set_author(name=model_name, icon_url="https://avatars.kgithubusercontent.com/u/1633844")
     out.set_timestamp()
 
     out.add_embed_field(name="Prompt", value=prompt, inline=False)
